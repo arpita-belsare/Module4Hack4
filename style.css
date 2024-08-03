@@ -91,9 +91,16 @@ li:hover{
     cursor: pointer;
 }
 
+@media screen and (max-width:850px) {
+.container-one{
+    width: 70%;
+}
+}
 
-
-
-
+@media screen and (max-width:450px) {
+    .container-one{
+        width: 95%;
+    }
+}
 
 
